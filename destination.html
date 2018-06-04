@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+	<title>Destination</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Destinationcss.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+  <a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwqO2w2wxEeANhYZVsQqjxlyqZnHq546jA247U8Hhc4XN7pJz"width="300" height="110"></a>
+  <div class="icons">
+          <a href="https://www.facebook.com/"target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/?hl=en"target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/login?lang=en"target="_blank"cd><i class="fab fa-twitter-square"></i></a>
+    </div>
+</header>
+<div id="nav-bar">
+<nav class="buttons-top">
+    <a href="index.html">Home</a>
+    <a href="contactpage.html">Contact Us</a>
+    <a href="destination.html">destinations</a>
+    <a href="index.html#about-title">About</a>
+  </nav>
+</div>
+<form id="hotelbooking" action="" method="GET">
+            <fieldset>
+              <legend>Personal Details:</legend>
+              <label for="name">Name: </label><input type="text" name="name" id="name" required autofocus placeholder="your full name" pattern="[a-zA-Z]{3,}" title="Please enter more than three letters">
+              <label class="emailName" for="email">Email: </label><input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-zA-Z]{3,}@[a-zA-Z] {3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a vaild email address">
+              <label class="phoneName" for="phone">Phone: </label><input type="tel" name="phone" id="phone" required placeholder="Please enter in your phone number" pattern="[0-9]{4}[0-9]{3}[0-9]{3}" title="Please enter in a phone number in this format: #### ### ###">
+              <select class="chooseCountry" name="country" required>
+                <option value=""> </option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="AUS">AUS</option>
+              </select>
+            </fieldset>
+            <br />
+            <fieldset>
+              <legend>Hotel Booking Details:</legend>
+              <label for="startDate">Booking start date:</label> <input id="startDate" type="date" name="date" min="2018-4-10">
+              <label for="endDate">Booking end date:</label> <input id="endDate" type="date" name="endDate" min="2018-4-10">
+              <br />
+              <br />
+              <label for="numberOfGuests">Number of guests:</label> <input id="numberOfGuest" type="number" name="numberOfGuests" min="1" max="6">
+              <br />
+              <br />
+              <label for="balcony">Do you require a balcony?</label> <input id="balcony" type="checkbox" name="balcony" value="yes" checked>
+              <br />
+              <input id="submitbutton" type="image" src="http://www.clker.com/cliparts/s/k/f/S/M/A/submit-button-png-hi.png" width="90" height="50"/>
+            </fieldset>
+          </form>
+      </div>
+      <div id="planetickets">
+      <h2>Book your Flight through one of these Airlines:</h2>
+      <div class="delta">
+        <i class="fas fa-plane"></i>
+        <a href="https://www.delta.com/?Log=1&mkcpgn=SEzzzGGusaCSpriBD&clickid=dc1489fa-c843-4c49-b550-a8a3b4e30d19&tracking_id=284x4477397&s_kwcid=TC%7C8489%7Cdelta%7C%7CS%7Ce%7C137847920841"target="_blank"><h3>Delta Airline</h3></a>
+      </div>
+      <div class="spirit">
+       <i class="fas fa-plane"></i>
+       <a href="https://www.cheapflightsfares.com/airlines/spirit-airlines-nk-flight-deals?utm_source=google&utm_medium=cpc&utm_campaign=non-brand&gcff=spirit-airlines&gclid=EAIaIQobChMI88Kq1tu62gIVzEoNCh0ApwuhEAAYASAAEgKt-_D_BwE"target="_blank"><h3>Spirit Airline</h3></a>
+      </div>
+      <div class="american">
+       <i class="fas fa-plane"></i>
+       <a href="https://www.aa.com/homePage.do"target="_blank"><h3>American Airline</h3></a>
+      </div>
+      <div class="united">
+        <i class="fas fa-plane"></i>
+        <a href="https://www.cheapflightsfares.com/airlines/united-airlines-ua-flight-deals?utm_source=google&utm_medium=cpc&utm_campaign=non-brand&gcff=united-airlines&gclid=EAIaIQobChMIh6Gjo9y62gIVj0oNCh1tswDwEAAYASAAEgLSLfD_BwE"target="_blank"><h3>United Airline</h3></a>
+      </div>
+      <div class="frontier">
+        <i class="fas fa-plane"></i>
+        <a href="https://www.cheapflightsfares.com/airlines/frontier-airlines-f9-flight-deals?utm_source=google&utm_medium=cpc&utm_campaign=non-brand&gcff=frontier-airlines&gclid=EAIaIQobChMIgpnW0Ny62gIVyoKzCh2CPwz9EAAYASAAEgJqMvD_BwE"target="_blank"><h3>Frontier Airline</h3></a>
+      </div>
+    </div>
+    <container id="main-box">
+      <div class="destination-title">
+        <h1> Choose from our four top destinations!</h1>
+        <br />
+        <p>
+          Choose between Our four top destinations
+        </p>
+      </div>
+      <br />
+      <div id="main-bahamas-box">
+        <div class="bahamas-div">
+          <h2>Bahamas</h2>
+        </div>
+        <img class="bahamas" src="https://images.trvl-media.com/hotels/1000000/180000/173700/173653/f366d5f5_b.jpg" width="300" height="250">
+        <div class="bahamas-bottom-div">
+          <p>Take a trip to the Bahamas</p>
+        </div>
+      </div>
+      <div id="main-keywest-box">
+      <div class="keywest-div">
+      <h2>Key West</h2>
+      </div>
+        <img class="keywest" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYo5_5B06dI0sgCNAszHPRzWzQ0eUF3yO6ZYI7D0m4TRn2Tbon" width="300" height="250">
+        <div class="keywest-bottom-div">
+          <p>Take a trip to the Key West</p>
+        </div>
+      </div>
+        <div id="main-hawaii-box">
+      <div class="hawaii-div">
+      <h2>Hawaii</h2>
+      </div>
+        <img class="hawaii" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwkTIFWrmtfqDJXnMe3LE2Ogv0dwJVS2Va0lg7j9BtrsnL6qpj" width="300" height="250">
+        <div class="hawaii-bottom-div">
+          <p>Take a trip to the Hawaii</p>
+        </div>
+      </div>
+      <div id="main-alaska-box">
+      <div class="alaska-div">
+      <h2>Alaska</h2>
+      </div>
+      <img class="alaska" src="https://www.silversea.com/content/dam/silversea-com/destinations/alaska/17-silversea-alaska-cruise-landscape.jpg" width="300" height="250">
+      <div class="alaska-bottom-div">
+          <p>Take a trip to the Alaska</p>
+        </div>
+      </div>
+    </container>
+    <footer class="footer">
+    <div class="bottomlinks">
+    <a href="index.html">Home</a>
+    <br />
+    <a href="contactpage.html">Contact US</a>
+    <br />  
+    <a href="privacy policy">Private Policy</a>
+  </div>
+      </footer>
+</body>
+</html

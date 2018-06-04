@@ -1,0 +1,234 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #191970;
+}
+header{
+	background-color: #00FFFF;
+	height: 120px;
+	border-radius: 3px;
+}
+header img{
+	border-radius: 6px;
+}
+.icons{
+	font-size: 1.5em;
+	float: right;
+	margin-right: 5px;
+}
+.buttons-top a{
+	border:solid #FFFAF0 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+}
+#nav-bar{
+text-align: center;
+}
+
+.buttons-top a:hover{
+	background-color: #2F4F4F;
+	color: white;
+}
+#hotelbooking{
+background-color: #00FFFF;
+font-size: 20px;
+padding-top: 20px;
+padding-bottom: 4.4px;
+box-sizing: border-box;
+width: 70%;
+height: 100%;
+display: block;
+margin-left: 10px;
+border: solid gray 3px;
+border-radius: 5px;
+float: left;
+margin-top: -10px;
+padding-bottom: 20px;
+}
+#planetickets{
+	float: right;
+	border: solid gray 3px;
+	border-radius: 5px;
+	width: 26%;
+	height: 100%;
+	background-color: #00FFFF;
+	padding-bottom: 6px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+#planetickets h3{
+	display: inline-block;
+	margin-left: 10px;
+	padding-bottom: .5px;
+	width: 40%;
+	font-size: 18px;
+}
+#planetickets a{
+	margin: 0% 0% 0% 15%;
+	text-decoration: none;
+	border: solid white 1.5px;
+	border-radius: 5px;
+	background-color: #F0F8FF;
+	color:#000000;
+	padding-top: 2%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+#planetickets a:hover{
+	background-color: #2F4F4F;
+	color: white;
+}
+.delta, .spirit, .american, .united, .frontier {
+	background-color: gray;
+	border-bottom: solid white 1px;
+	border-top: solid white 2px;
+	border-left: solid white 2px;
+	border-right: solid white 2px;
+	border-radius: 5px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: -7.5px;
+}
+#main-box{
+	display: inline-block;
+	background-color: rgba(74, 171, 255, .30);
+	padding-right: 10px;
+	margin-left: 8%;
+	margin-right: 5%;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#main-bahamas-box, #main-keywest-box, #main-hawaii-box, #main-alaska-box{
+	display: inline-block;
+}
+.destination-title{
+	background-color: #00FFFF;
+	display: inline-block;
+	width: 99%;
+	margin-left: 10px;
+	border: solid gray 2px;
+	border-radius: 5px;
+}
+.destination-title h1{
+	text-align: center;
+	font-size: 35px;
+}
+.destination-title p{
+	text-align: center;
+	font-size: 25px;
+}
+.bahamas-div, .keywest-div, .hawaii-div, .alaska-div{
+	border-top: solid gray 2px;
+	border-left: solid gray 2px;
+	border-right: solid gray 2px;
+	border-bottom: solid gray 2px;
+	border-radius: 5px;
+	width: 300px;
+	text-align: center;
+	background-color: #00FFFF;
+	color: #504E54;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.bahamas, .keywest, .hawaii, .alaska{
+	border-left: solid gray 2px;
+	border-right: solid gray 2px;
+	margin-left: 10px;
+}
+.bahamas-bottom-div, .keywest-bottom-div, .hawaii-bottom-div, .alaska-bottom-div{
+	border-right: solid gray 2px;
+	border-left: solid gray 2px;
+	border-bottom: solid gray 2px;
+	border-radius: 5px;
+	width: 300px;
+	margin-left: 10px;
+}
+ p{
+	margin-top: -4.5px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #00FFFF;
+}
+.footer{
+	background-color: rgba(8,18,15,.70);
+	border: solid white .5px;
+	border-radius: 3px;
+	margin: 1px 0px 0px 0px;
+	width: 100.1%;
+}
+.bottomlinks{
+	text-align: right;
+	
+}
+.bottomlinks a{
+	color: white;
+}
+.bottomlinks a:hover{
+	color: #2F4F4F;
+}
+@media only screen and (max-width:1281px){
+#main-box{
+	display: inline-block;
+	background-color: rgba(74, 171, 255, .30);
+	padding-right: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 72%;
+}
+}
+@media only screen and (max-width:612px){
+.buttons-top a{
+	display: block;	
+}
+#hotelbooking{
+margin-top: 2px;
+}
+#planetickets{
+	margin-top: 2px;
+}
+}
+@media only screen and (max-width:535px){
+#planetickets{
+	float: left;
+	width: 60%;
+	height: 100%;
+	background-color: #00FFFF;
+	padding-bottom: 6px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 9px;
+}
+}
+@media only screen and (max-width:465px){
+#main-box{
+	display: inline-block;
+	background-color: rgba(74, 171, 255, .30);
+	padding-right: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 322px;
+}
+}
+@media only screen and (max-width:395px){
+header{
+	height: 140px;
+}
+}
+@media only screen and (max-width:339px){
+#main-box{
+	width: 315px;
+}
+}	

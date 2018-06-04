@@ -1,0 +1,237 @@
+body{
+	background-color: #191970;
+}
+header{
+	background-color: #00FFFF;
+	height: 120px;
+	border-radius: 3px;
+}
+header img{
+	border-radius: 6px;
+}
+.icons{
+	font-size: 1.5em;
+	float: right;
+	margin-right: 5px;
+}
+
+.nav-bar a{
+	border:solid #FFFAF0 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+}
+nav{
+	text-align: center;
+	margin-top: -15px;
+}
+.nav-bar a:hover{
+	background-color: #2F4F4F;
+	color: white;
+}
+.top-half{
+	background-color: #00FFFF;
+	border: solid gray 2px;
+	border-radius: 5px;
+	height: 100%;
+	width: 60%;
+	display: inline-block;
+	margin-left: 20%;
+	margin-right: 10px;
+	margin-top: 7px;
+}
+#centerbox{
+	background-color: rgba(54,151,165,0.33);
+	max-width: 80%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.message-container{
+	width: 101%;
+	display: inline-block;
+}
+#comments{
+	min-height: 190px;
+	width: 60%;
+	font-family:sans-serif;
+	font-size: 1.2em;
+	margin: 5px 5px 0px 20%;
+
+}
+input[type="submit"]{
+	width: 40%;
+	padding: 10px 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: 30%;
+}
+input[type="submit"]:hover{
+	background-color: #2F4F4F;
+	color: white;
+}
+#footer{
+	background-color: rgba(8,18,15,.75);
+	border: solid white .5px;
+	border-radius: 3px;
+	}
+.bottomlinks{
+	text-align: right;
+}
+.bottomlinks a{
+	color: white;
+}
+.bottomlinks a:hover{
+	color: #2F4F4F;
+}
+@media only screen and (max-width:902px) {
+nav{
+	text-align: right;
+	margin-top: -15px;
+	width: 130%;
+	margin-left: -131px;
+}
+}
+@media only screen and (max-width:691px) {
+nav{
+	text-align: left;
+	margin-top: -15px;
+	width: 162%;
+	margin-left: -105px;
+}
+}
+@media only screen and (max-width:575px) {
+.nav-bar a{
+	border:solid gray 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+	display: block;
+}
+nav{
+	text-align: center;
+	margin-top: -15px;
+	width: 160%;
+}
+}
+@media only screen and (max-width:509px) {
+nav{
+	text-align: center;
+	margin-top: -15px;
+	width: 162%;
+	margin-left: -100px;
+}
+}
+@media only screen and (max-width:445px) {
+nav{
+	text-align: center;
+	margin-top: -15px;
+	width: 162%;
+	margin-left: -90px;
+}
+}
+@media only screen and (max-width:417px) {
+.nav-bar a{
+	border:solid #FFFAF0 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 0px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+	width: 61%;
+	margin-left: 90px;
+}
+nav{
+	text-align: center;
+	margin-top: -15px;
+}
+.top-half{
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 7px;
+}
+#centerbox{
+	background-color: rgba(54,151,165,0.33);
+	max-width: 90%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.message-container{
+	width: 101%;
+	display: inline-block;
+}
+#comments{
+	min-height: 190px;
+	width: 99%;
+	font-family:sans-serif;
+	font-size: 1.2em;
+	margin: 5px 5px 0px 0px;
+}
+}
+@media only screen and (max-width:400px) {
+header{
+	background-color: #00FFFF;
+	height: 140px;
+	border-radius: 3px;
+}
+.nav-bar a{
+	border:solid #FFFAF0 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 0px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+	width: 61%;
+	margin-left: 90px;
+}
+nav{
+	text-align: center;
+	margin-top: -15px;
+}
+.top-half{
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 7px;
+}
+#centerbox{
+	background-color: rgba(54,151,165,0.33);
+	max-width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+}

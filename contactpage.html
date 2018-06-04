@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ContactUS</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="contactsUScss.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+  <a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwqO2w2wxEeANhYZVsQqjxlyqZnHq546jA247U8Hhc4XN7pJz"width="300" height="110"></a>
+  <div class="icons">
+          <a href="https://www.facebook.com/"target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/?hl=en"target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/login?lang=en"target="_blank"cd><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </header>
+      <div class="top-half">
+        <nav class="nav-bar">
+    <a href="index.html">Home</a>
+    <a href="hotelfinder.html">Contact Us</a>
+    <a href="destination.html">destinations</a>
+    <a href="index.html#about-title">About</a>
+  </nav>
+        <div id="centerbox">
+  <fieldset class="contactform">
+    <h2>Send Us A Message.</h2>
+    <section class="message-container">
+      <label for="name">Name: </label><input type="text" name="name" id="name" required autofocus placeholder="your full name" pattern="[a-zA-Z]{3,}" title="Please enter more than three letters">
+              <br />
+              <br />
+              <label for="email">Email: </label><input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-zA-Z]{3,}@[a-zA-Z] {3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a vaild email address">
+              <br />
+              <br />
+              <label for="phone">Phone: </label><input type="tel" name="phone" id="phone" required placeholder="Please enter in your 
+              phone number" pattern="[0-9]{4}[0-9]{3}[0-9]{3}" title="Please enter in a phone number in this format: #### ### ###">
+            </section>
+          </fieldset>
+     <form id="send" action="/html/tags/html_form_tag_action.cfm" method="post">
+      <textarea name="comments" id="comments" placeholder="Type In Here."></textarea>
+    </form>
+      <br />
+      <input type="submit" value="Submit">
+</div>
+</div>
+
+      <footer id="footer">
+    <div class="bottomlinks">
+    <a href="index.html">Home</a>
+    <br />
+    <a href="hotelfinder.html">Contact US</a>
+    <br />  
+    <a href="privacy policy">Private Policy</a>
+      </footer>
+         <script>
+      document.getElementById("send").onsubmit = function () {
+    alert("The form was submitted");
+    };
+      </script>
+</body>
+</html>

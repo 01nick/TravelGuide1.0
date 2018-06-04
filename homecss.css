@@ -1,0 +1,373 @@
+body{
+	background-color: #191970;
+}
+header{
+	background-color: #00FFFF;
+	height: 120px;
+	border-radius: 3px;
+}
+header img{
+	border-radius: 6px;
+}
+.icons{
+	float: right;
+	margin-right: 5px;
+	font-size: 1.5em;
+}
+.fa-instagram{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.topbuttons a{
+	border:solid #FFFAF0 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+}
+nav{
+	text-align: center;
+}
+.topbuttons a:hover{
+	background-color: #2F4F4F;
+	color: white;
+}
+
+.title{
+	display: block;
+	border: solid gray 3px;
+	margin-top: .5%;
+	margin-bottom: .5%;
+	background-color: #00FFFF;
+	border-radius: 8px;
+	height: 350px;
+	width: 100%;
+}
+
+.intro-title{
+	display: block;
+	position: relative;
+	bottom: 79%;
+	right: 25%;
+	color: #000000;
+	font-family: Goudy Old Style;
+	font-size: 20px;
+	line-height: 80.2px;
+	text-align: center;
+}
+.intro-title span{
+	text-decoration: underline;
+}
+.mainpicture img{
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 10px;
+	border: solid white 2px;
+	border-radius: 8px;
+	width: 51%;
+	min-width: 420px;
+	margin-left: 5px;
+}
+#aboutDiv{
+	background-color: #6395E8;
+	border: solid gray 2px;
+	border-radius: 5px;
+	margin-bottom: 6px;
+}
+#about-title{
+	text-align: center;
+}
+.about-paragraph{
+	text-align: center;
+	font-size: 22px;
+}
+#main-box{
+	display: inline-block;
+	background-color: rgb(187, 246, 255);
+	padding-right: 10px;
+	border-radius: 5px;
+	width: 99.5%;
+}
+.destination-title{
+	background-color: #00FFFF;
+	text-align: center;
+	border: solid gray 2px;
+	border-radius: 5px;
+	width: 100.5%;
+}
+.not-available{
+	font-size: 20px;
+	color: #E20E00;
+}
+#main-paris-box, #main-italy-box, #main-jamaica-box, #main-iceland-box{
+	display: inline-block;
+	margin-left: 3%;	
+}
+.paris-div, .italy-div, .jamaica-div, .iceland-div{
+	border: solid gray 2px;
+	border-radius: 5px;
+	width: 300px;
+	text-align: center;
+	background-color: #6395E8;
+	color: #FFFFFE;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.paris, .italy, .jamaica, .iceland{
+	border-left: solid gray 2px;
+	border-right: solid gray 2px;
+	margin-left: 10px;
+}
+.paris-bottom-div, .italy-bottom-div, .jamaica-bottom-div, .iceland-bottom-div{
+	border-right: solid gray 2px;
+	border-left: solid gray 2px;
+	border-bottom: solid gray 2px;
+	border-radius: 5px;
+	width: 300px;
+	margin-left: 10px;
+}
+.footer{
+	background-color: rgba(8,18,15,.70);
+	border: solid white .5px;
+	border-radius: 3px;
+	margin: 1px 0px 0px 0px;
+	width: 100.1%;
+}
+.bottomlinks{
+	text-align: right;
+}
+.bottomlinks a{
+	color: #FFFAF0;
+}
+.bottomlinks a:hover{
+	color: #2F4F4F;
+}
+@media only screen and (max-width:1196px){
+.topbuttons a{
+	border:solid #FFFAF0 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 8px 15px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;	
+}
+nav{
+	text-align: left;
+}
+.mainpicture img{
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 13px;
+	border: solid white 2px;
+	border-radius: 8px;
+	width: 51%;
+	min-width: 420px;
+	margin-left: 5px;
+}
+}
+@media only screen and (max-width:1103px) {
+.intro-title{
+	display: block;
+	position: relative;
+	bottom: 79%;
+	right: 25%;
+	color: #000000;
+	font-family: Goudy Old Style;
+	font-size: 16px;
+	line-height: 80.2px;
+	text-align: center;
+}
+}
+@media only screen and (max-width:905px) {
+.intro-title{
+	display: block;
+	position: relative;
+	bottom: 79%;
+	right: 25%;
+	color: #000000;
+	font-family: Goudy Old Style;
+	font-size: 15px;
+	line-height: 80.2px;
+	text-align: center;
+}
+}
+@media only screen and (max-width:893px) {
+.intro-title{
+	display: block;
+	position: relative;
+	bottom: 85%;
+	right: 0%;
+	color: #000000;
+	font-family: Goudy Old Style;
+	font-size: 17px;
+	line-height: 80.2px;
+	text-align: center;
+}
+.mainpicture img{
+	display: block;
+	border: solid white 2px;
+	border-radius: 8px;
+	width: 100%;
+	min-width: 420px;
+	margin-right: 5%;
+	margin-left: -50%;
+}
+}
+@media only screen and (max-width:579px) {
+.intro-title{
+	display: block;
+	position: relative;
+	bottom: 85%;
+	right: 0%;
+	font-size: 15px;
+	line-height: 80.2px;
+	text-align: center;
+}
+}
+@media only screen and (max-width:558px) {
+.topbuttons a{
+	border:solid gray 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: Calisto MT;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
+	width: 91%;
+	z-index: 100
+}
+nav{
+	text-align: center;
+}
+.title{
+	display: block;
+	border: solid gray 3px;
+	margin-top: 180px;
+	margin-bottom: .5%;
+	background-color: #00FFFF;
+	border-radius: 8px;
+	height: 350px;
+	width: 100%;
+}
+}
+@media only screen and (max-width:511px) {
+.intro-title{
+	display: block;
+	position: relative;
+	bottom: 85%;
+	right: 0%;
+	color: #000000;
+	font-family: Goudy Old Style;
+	font-size: 13px;
+	line-height: 80.2px;
+	text-align: center;
+}
+.mainpicture img{
+	display: block;
+	border: solid white 2px;
+	border-radius: 8px;
+	width: 100%;
+	min-width: 420px;
+	margin-right: 5%;
+	margin-left: -57%;
+}
+}
+@media only screen and (max-width:467px) {
+.topbuttons a{
+	padding: 10px 15px;
+	margin-left: 5px;
+	margin-right: 10px;
+	display: block;
+	width: 90%;
+}
+.mainpicture img{
+	width: 114%;
+	min-width: 280px;
+	margin-right: 5%;
+	margin-left: -57%;
+}
+}
+@media only screen and (max-width:411px) {
+.intro-title{
+	font-size: 12px;
+}
+}
+@media only screen and (max-width:405px) {
+header{
+	background-color: #00FFFF;
+	height: 140px;
+	border-radius: 3px;
+}
+.topbuttons a{
+	width: 86%;
+}
+.home{
+	margin-top: 20px;
+}
+}
+@media only screen and (max-width:387px) {
+.topbuttons a{
+	width: 88.5%;
+}
+.intro-title{
+	font-size: 11px;
+}
+}
+@media only screen and (max-width:357px) {
+.intro-title{
+	font-size: 10px;
+}
+.mainpicture img{
+	margin-top: -10px;
+	margin-left: -57%;
+}
+}
+@media only screen and (max-width:331px) {
+header{
+	background-color: #00FFFF;
+	height: 140px;
+	border-radius: 3px;
+}
+.topbuttons a{
+	width: 86%;
+}
+.home{
+	margin-top: 20px;
+}
+.mainpicture img{
+	margin-top: -10px;
+	margin-left: -60%;
+}
+.intro-title{
+	line-height: 70.2px;
+}
+#main-box{
+	padding-right: 0px;
+}
+#main-paris-box, #main-italy-box, #main-jamaica-box, #main-iceland-box{
+	display: inline-block;
+	margin-left: -9px;
+
+}
+}
+@media only screen and (max-width:323px) {
+.mainpicture img{
+	margin-top: -10px;
+	margin-left: -63%;
+}
+}
